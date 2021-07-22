@@ -1,0 +1,34 @@
+User Data Structure:
+    Customer ID
+    First Name
+    Middle Name
+    Last Name
+    Email Address
+    Phone Number
+    Street Address
+    Apartment Number
+    City
+    Province
+    Postal Code
+    Password
+    Payment Method (Debit, Credit or Store Card)
+    Card Number
+    CVC Number
+
+Product Data Structure:
+    Item Name
+    Serial Number
+    Description
+    Price
+    Quantity
+    Size/Weight
+    Unit
+    Type
+    Aisle
+
+Order Data Structure:
+    Order ID
+    Customer ID
+    Customer First Name
+    Customer Last Name
+    List of Products
