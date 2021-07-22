@@ -109,9 +109,27 @@
           <label for="confirm-new-password">Confirm New Password*: </label>
           <input class="properties-input" type="password" id="confirm-new-password" name="confirm-new-password" value="">
         </div>
+        <div class="prop-row">
+          <div class="col-4">
+            <label for="payment-method">Card Type:</label>
+            <select class="properties-input" id="payment-method" name="payment-method">
+              <option value="debit">Debit Card</option>
+              <option value="credit">Credit Card</option>
+              <option value="moomoo">MooMoo Card</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <label for="card-number">Card Number:</label>
+            <input class="properties-input" type="text" id="card-number" name="card-number" value="">
+          </div>
+          <div class="col-2">
+            <label for="cvc">CVC:</label>
+            <input class="properties-input" type="text" id="cvc" name="cvc" value="">
+          </div>
+        </div>
         <div class="col-12">
           <input class="save-button" type="submit" name="" value="Save Changes"></p>
-          <p><em>*If you do not wish to change the password, leave these fields blank.</em><br>
+          <p><em>*If you do not wish to modify these fields, leave them blank.</em><br>
         </div>
       </form>
     </div>
